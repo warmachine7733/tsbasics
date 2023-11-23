@@ -8,7 +8,8 @@ const person : types.Person = {
         no: 7008787878
     },
     roles: [1, "admin"],
-    hobbies: ["games", "gym"]
+    hobbies: ["games", "gym", {"x":"1"}],
+    marks: "90"
 }
 const result: string = "the person is:"
 console.log(result, person)

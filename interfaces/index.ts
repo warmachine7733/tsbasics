@@ -6,5 +6,8 @@ export interface Person {
     no: number
   },
   roles: [ number, string ],
-  hobbies: string[]
+  hobbies: mixAndmatch,
+  marks: string | number
 }
+
+type mixAndmatch =  Array<{}>
