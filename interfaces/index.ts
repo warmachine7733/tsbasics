@@ -4,5 +4,7 @@ export interface Person {
   phone: {
     ctryCode: string,
     no: number
-  }
+  },
+  roles: [ number, string ],
+  hobbies: string[]
 }
